@@ -27,7 +27,6 @@ def move(board, index, current_player = "X")
   board[index] = current_player
 end
 
-board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
 
 def turn(board)
   puts "Please enter 1-9:"
